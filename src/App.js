@@ -194,6 +194,7 @@ class App extends Component {
                             /> 
                             : '';
         return (
+                <Route exact path={`/home`} render={ (routerProps) => < Home routerProps={routerProps} />} />
                 <div className="container">
                     <div className="text-center">
                         <h1>Quản lý Công Việc</h1><hr/>
